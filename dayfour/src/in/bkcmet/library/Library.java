@@ -14,6 +14,7 @@ public class Library {
 	}
 	
 	//private method
+	
 	private void displayPrivate()
 	{
 		System.out.println("user id:"+userId);
