@@ -8,11 +8,11 @@ class ChiefMinister
 }
 class MLA extends ChiefMinister
 {
-	static void curruption(String str1,float amt2)
+	static void curruption(String str1,float amt)
 	{
 		ChiefMinister.curruption("bbb", 23456);
 		//super.curruption("Ajit Pawar", 2345);
-		System.out.println(str1+" "+"currupted amount of"+" "+amt2);
+		System.out.println(str1+" "+"currupted amount of"+" "+amt);
 	}
 }
 public class MethodOverridingExecuter {
