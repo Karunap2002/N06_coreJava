@@ -38,6 +38,7 @@ public class AccountThread extends Thread {
 		this.amount = amount;
 	}
 
+	
 	public void run() {
 		try {
 			if (type.equals("deposit"))
